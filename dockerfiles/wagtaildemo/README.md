@@ -1,5 +1,7 @@
+# Dockerfile experiments
 
+Wagtaildemo based on https://github.com/oyvindsk/docker-playground/
 
-Dockerfile for https://github.com/torchbox/wagtaildemo
+Test with:
 
-Work in progress ..
+    docker build https://raw.github.com/tomdyson/docker-playground/master/dockerfiles/wagtaildemo/
