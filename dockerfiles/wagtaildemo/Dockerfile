@@ -7,6 +7,7 @@
 FROM ubuntu
 MAINTAINER Tom Dyson
 
+RUN apt-get update
 RUN apt-get install -y build-essential
 RUN apt-get install -y git
 RUN apt-get install -y postgresql  libpq-dev
